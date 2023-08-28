@@ -43,11 +43,16 @@ function NavBar() {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand as={Link} to="/" onClick={closeNavbar} className="d-flex">
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          onClick={closeNavbar}
+          className="d-flex"
+        >
           <img
             src={logo}
             className="img-fluid logo"
-            style={{ maxWidth: "290px", height: "auto" }}
+            style={{ maxWidth: "250px", height: "auto" }}
             alt="brand"
           />
         </Navbar.Brand>

@@ -7,7 +7,7 @@ function Type() {
       options={{
         strings: [
           "Mobil yazılım",
-          "Wep yazılım",
+          "Web yazılım",
           "Özel yazılım geliştirme",
           "QR ve NFC yazılımı",
         ],

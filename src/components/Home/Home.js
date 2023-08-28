@@ -27,7 +27,9 @@ function Home() {
                 En İyi Bilişim Çözümlerini
                 <strong className="main-name"> Üretiyoruz</strong>
               </h1>
-              <div style={{ padding: 20, textAlign: "left" }}>
+              <div
+                style={{ padding: 20, marginBottom: "50px", textAlign: "left" }}
+              >
                 {" "}
                 <Type />
               </div>

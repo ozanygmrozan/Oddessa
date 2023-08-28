@@ -5,6 +5,9 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
+
 import { FaLinkedinIn } from "react-icons/fa";
 import logo from "../Assets/logo.png";
 import "./Footer.css";
@@ -19,7 +22,7 @@ function Footer() {
           <img
             src={logo}
             className="img-fluid logo"
-            style={{ maxWidth: "290px", height: "auto" }}
+            style={{ maxWidth: "250px", height: "auto" }}
             alt="brand"
           />
 
@@ -28,17 +31,7 @@ function Footer() {
           <ul className="footer-icons">
             <li className="social-icons">
               <a
-                href="https://github.com/soumyajit4419"
-                style={{ color: "white" }}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <AiFillGithub />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
-                href="https://twitter.com/Soumyajit4419"
+                href="https://twitter.com/i/flow/login?redirect_after_login=%2Fodessayazilim"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
@@ -48,17 +41,17 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://www.linkedin.com/in/soumyajit4419/"
+                href="https://www.facebook.com/Odessayazilim/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <FaLinkedinIn />
+                <FontAwesomeIcon icon={faFacebook} />
               </a>
             </li>
             <li className="social-icons">
               <a
-                href="https://www.instagram.com/soumyajit4419"
+                href="https://www.instagram.com/odessayazilim/"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"

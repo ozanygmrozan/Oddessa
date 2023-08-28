@@ -123,7 +123,7 @@ button:focus {
 .tooltip-button {
   background-color: #333;
   color: white;
-  zindex: 100px;
+  z-index: 100px;
   border: none;
   cursor: pointer;
   padding: 5px 10px;
@@ -138,8 +138,6 @@ button:focus {
   transition: transform 0.35s ease-in-out !important;
   transition: transform 0.35s ease-in-out !important;
 }
-
-
 
 .navbar-toggler:not(.collapsed) span:nth-child(1) {
   position: absolute !important;
